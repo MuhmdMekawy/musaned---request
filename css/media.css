@@ -1,0 +1,487 @@
+@media(max-width : 1400px){
+    .navigate .row{
+        gap: 0;
+    }
+    .navigate a{
+        font-size: 14px;
+    }
+    .navigate .right{
+        gap: 5px;
+    }
+    .header{
+        padding-right:5px;
+        gap: 140px;
+        margin-right: initial;
+    }
+    .city .special-heading h2 + hr{
+        width: 60%;
+    }
+    .mus .supp .content{
+        gap: 79px;
+    }
+    .services .cont{
+        max-width: 180px;
+    }
+}
+@media(min-width:1300px) and (max-width:1451px) {
+    .city .owl-carousel{
+        margin-right: 152px;
+    }
+}
+@media(min-width:1200px) and (max-width:1300px) {
+    .city .owl-carousel{
+        margin-right: 123px;
+    }
+}
+@media(max-width : 1200px){
+    .navigate .left{
+        display: none;
+    }
+    .navigate .row{
+        align-items: center;
+    }
+    .navigate .navi{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+    }
+    .header{
+        flex-direction: column-reverse;
+        gap: 60px;
+        padding-right: initial;
+    }
+    .header .center{
+        margin-top: 130px;
+    }
+    .header .right{
+        padding-top: 0;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        flex-wrap: wrap;
+        padding-bottom: 0;
+    }
+    .header .right .check{
+        margin-top: 0;
+    }
+    .header .right .check a{
+        margin-top: 0;
+    }
+    .header .right .check img{
+        max-width: 60px;
+        height: 60px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .header .right .cont a{
+        margin-bottom: 0;
+    }
+    .call{
+        margin-bottom: 90px;
+    }
+    .call .bottom .row{
+        justify-content: center;
+        gap: 15px;
+    }
+    .call .bottom .row .cont{
+        margin-bottom: 16px;
+    }
+    .city .owl-carousel{
+        margin-right: 52px;
+    }
+    .city  .special-heading h2 + hr{
+        width: 40%;
+    }
+    .city .owl-carousel{
+        margin-right: 115px;
+    }
+    .process .bottom .four{
+        margin-right: initial;
+        margin-left: initial;
+    }
+    .process .bottom .three{
+        order: 4;
+    }
+    .process .bottom .four{
+        order: 3;
+    }
+    .process .bottom .five{
+        order: 5;
+    }
+    .process .bottom .six{
+        order: 6;
+    }
+    .process .bottom .cont .three{
+        order: 3;
+    }
+    .process .bottom .two::before{
+        top: 120%;
+        right: -10%;
+        transform: rotate(90deg);
+    }
+    .process .bottom .two::after{
+        top: 190%;
+        right: -10%;
+        transform: rotate(90deg);
+        border-color: transparent transparent transparent #D59707;
+    }
+    .process .bottom .three::before{
+        content: '';
+        position: absolute;
+        right: -280px;
+        height: 2px;
+        width: 300px;
+        z-index: -1;
+        top: 50%;
+        border-top: 2px dashed #BCBCBC;
+        transform: rotate(180deg);
+    }
+    .process .bottom .three::after{
+        top: 107px;
+        z-index: 5;
+        right: -368px;
+        transform: rotate(0);
+    }
+    .process .bottom .five::before{
+        right: -64px;
+        z-index: -1;
+        top: -31px;
+        transform: rotate(121deg);
+    }
+    .process .bottom .five::after{
+        top: 65px;
+        z-index: 5;
+        right: -28px;
+        transform: rotate(112deg);
+    }
+    .mus .landing .content .bottom{
+        flex-wrap: wrap-reverse;
+    }
+    .mus .landing .content .bottom .right{
+        text-align: center;
+    }
+    .mus .landing .content p{
+        max-width: 939px !important;
+        font-size: 14px !important;
+    }
+    .mus .travel .content .top h3 + p{
+        font-size: 14px;
+    }
+    .mus .travel .content{
+        gap: 50px;
+    }
+    .mus .travel .content .row{
+        gap: 25px;
+    }
+    .mus .price .row{
+        gap: 25px;
+    }
+    .career .row .cont{
+        max-width: 222px;
+    }
+    .career .row .cont h3{
+        margin-right: 9px;
+    }
+    .mus .supp .content{
+        gap: 10px;
+    }
+}
+@media(max-width : 990px){
+    .statics .content{
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    .statics .content .bottom .row{
+        justify-content: center;
+    }
+    .statics .content .bottom img{
+        height: 173px;
+    }
+    .statics .content .bottom .con{
+        margin-bottom: 35px;
+    }
+    .city .special-heading{
+        width: 72%;
+    }
+    .city .owl-theme .owl-dots .owl-dot span{
+        width: 30px;
+    }
+    .contact .row .left .bottom{
+        max-width: 538px;
+    }
+    .mus .serv .bottom{
+        gap: 18px;
+    }
+    .career .row .cont{
+        max-width: 257px;
+    }
+    .career .row .cont h3{
+        margin-right: 25px;
+    }
+    .mus .supp .content{
+        gap: 40px;
+    }
+    .mus .supp .content .contact{
+        width: 254px;
+    }
+    .services .cont{
+        max-width: 150px;
+    }
+}
+@media(max-width : 770px){
+    .special-heading{
+        flex-direction: column;
+    } 
+    .special-heading h2+ hr{
+        /* margin-left: 0; */
+        margin-top: 28px;
+        margin-bottom: 0;
+    }
+    .city .owl-carousel .owl-nav{
+        top: -97px;
+        left: 70px;
+    }
+    .city .owl-carousel{
+        margin-right: 0;
+    }
+    .city .owl-carousel .one .price h6{
+        font-size: 12px;
+    }
+    .process{
+        margin-bottom: 0;
+    }
+    .process .bottom .row{
+        justify-content: center;
+        margin-right: 0;
+    }
+    .process .bottom .three{
+        order: 3;
+    }
+    .process .bottom .four{
+        order: 4;
+    }
+    .process .bottom .cont::before{
+        content: '';
+        position: absolute;
+        left: -28px;
+        transform: rotate(90deg);
+        height: 2px;
+        width: 300px;
+        z-index: -1;
+        top: 265px;
+        border-top: 2px dashed #BCBCBC;
+    }
+    .process .bottom .cont::after{
+        display: none;
+    }
+    .process .bottom .three::before{
+        right: -23px;
+    }
+    .process .bottom .five::before{
+        top: -94px;
+    }
+    .process .bottom .five::before{
+        right: -23px;
+    }
+    .report .images{
+        flex-wrap: wrap;
+    }
+    .req .accord .cont .bottom h6{
+        line-height: 1.6;
+    }
+    .who .content ,
+    .part .content{
+        flex-wrap: wrap;
+    }
+    .who .content .right{
+        margin-left: initial;
+    }
+    .who .content .right::before{
+        display: none;
+    }
+    .mus .serv .bottom{
+        flex-wrap: wrap;
+    }
+    .mus .supp{
+        margin-bottom: 90px;
+    }
+    .say .owl-carousel .one{
+        transform: translateX(0);
+    }
+    .say .owl-carousel .three{
+        transform: translateX(0);
+    }
+    .say .owl-carousel .one .top::after{
+        right: 32%;
+    }
+    .say .owl-carousel .three .top::after{
+        right: 60%;
+    }
+}
+@media(max-width : 580px){
+    .navigate .right{
+        flex-direction: column;
+        justify-content: center;
+        gap: 0;
+    }
+    .special-heading{
+        text-align: center;
+        margin-right: auto;
+        width: fit-content;
+        margin-left: auto;
+    }
+    .special-heading h2 + hr{
+        width: 100%;
+    }
+    .header .center{
+        margin-top: 94px;
+    }
+    .header .center h2{
+        font-size: 30px;
+    }
+    .header .center .buttons{
+        flex-wrap: wrap;
+    }
+    .statics .content{
+        gap: 35px;
+    }
+    .city .owl-carousel{
+        margin-right: 0;
+    }
+    .city .owl-carousel .owl-nav{
+        top: -97px;
+        left: 0;
+    }
+    .city .owl-theme .owl-dots .owl-dot span{
+        width: 18px;
+    }
+    .req .accord .cont{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .req .accord .cont .top h3 ,
+    .req .accord .cont .bottom h6{
+        font-size: 16px;
+    }
+    .req .accord .cont .bottom ol li{
+        font-size: 14px;
+        height: auto;
+    }
+    .say .one .top{
+        max-width: 320px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .say .one .o{
+        transform: translate(0);
+    }
+    .say .one .thr{
+        transform: translate(0);
+    }
+    .say .one .o::after{
+        right: 75px;
+    }
+    .say .one .thr::after{
+        left: 70px;
+        right: unset;
+    }
+    .say .one .top .ic + p{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .contact .row{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .services .cont{
+        max-width: 100%;
+    }
+    .services .cont .image{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .mus .supp{
+        margin-bottom: 75px;
+    }
+    .footer .content{
+        justify-content: center;
+    }
+    .mus .landing{
+        margin-top: 45px;
+        margin-bottom: 53px;
+    }
+    .mus .landing .content{
+        gap: 45px;
+    }
+    .mus .travel{
+        margin-bottom: 58px;
+    }
+    .mus .services{
+        margin-bottom: 50px;
+    }
+    .mus .services h4{
+        margin-bottom: 60px;
+    }
+    .mus .services .row{
+        gap: 60px;
+    }
+    .mus .price{
+        margin-bottom: 85px;
+    }
+    .ask .format .content{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .ask .format{
+        margin-bottom: 53px;
+    }
+
+}
+@media (max-width: 470px){
+    .navigate .row{
+        justify-content: center;
+    }
+    .city .owl-carousel .one .price h6{
+        font-size: 16px;
+    }
+    .process img{
+        right: 0;
+        width: 200px;
+        height: 200px;
+    }
+    .mus .price .row .cont{
+        margin-right: 10px;
+        margin-left: 10px;
+        max-width: 370px;
+    }
+    .mus .app h3 + p{
+        margin-bottom: 25px;
+    }
+    .mus .app .down{
+        gap: 10px;
+        margin-bottom: 43px;
+    }
+    .mus .app .bottom{
+        gap: 30px;
+    }
+    .footer{
+        text-align: center;
+    }
+    .contact .row .right{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .say .owl-carousel .item .top p{
+        padding-right: 30px;
+        padding-left: 10px;
+    }
+    .say .owl-theme .owl-dots{gap: 15px;}
+    .say .owl-carousel .one .top::after{
+        right: 28%;
+    }
+    .say .owl-carousel .three .top::after{
+        right: 62%;
+    }
+}
